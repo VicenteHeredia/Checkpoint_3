@@ -76,16 +76,35 @@ name = "Exercise 7 <answer>"
 print(name)
 print()
 
-first_word = list_of_tags [0]
-print(first_word)
-print(tags.upper())
-print(tags.title())
+# first_word = list_of_tags [0]
+# print(first_word)
+# print(tags.upper())
+# print(tags.title())
 
+tags_two = tags.replace ('harry', 'HARRY')
+print(tags_two)
+
+print()
+
+t = list_of_tags [0]
+u = list_of_tags [1]
+w = list_of_tags [2]
+x = list_of_tags [3]
+y = list_of_tags [4]
+z = list_of_tags [5]
+tags_three = t.upper(), u, w, x, y, z
+print(tags_three)
 
 # Exercise 8: Use string interpolation to print out a sentence that contains your number variable.
 print()
 name = "Exercise 8 <answer>"
 print(name)
+print()
+
+my_number = add
+sentence = f'My number variable is {add}.'
+print(sentence)
+
 print()
 
 my_number = add
